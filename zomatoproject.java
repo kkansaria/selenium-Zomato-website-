@@ -34,7 +34,7 @@ public class zomatoproject {
 		System.out.println("Browser opened");
 	}
 
-	/*@Test(priority = 1)
+	@Test(priority = 1)
 	public void accountcreation() throws InterruptedException, BiffException, IOException
 
 	{
@@ -839,7 +839,7 @@ driver.findElement(By.id("search_input")).sendKeys("hotel retreat");
 Thread.sleep(5000);
 driver.findElement(By.xpath("/html/body/div[12]/div/i")).click();
 driver.close();
-}*/
+}
 
 @Test(priority=21)
 public void carrer() throws InterruptedException
